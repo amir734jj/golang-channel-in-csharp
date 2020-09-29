@@ -9,7 +9,7 @@ namespace Core.Interfaces
         /// Send an item to the channel
         /// </summary>
         /// <param name="t"></param>
-        /// <exception cref="InvalidOperationException">if adding to the channel is closed</exception>
+        /// <exception cref="InvalidOperationException">if adding to the channel that is closed</exception>
         /// <returns></returns>
         bool Send(T t);
 
